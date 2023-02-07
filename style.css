@@ -1,8 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,9 +20,10 @@ body {
   height: 900px;
 }
 
-h1 {
+.container h1 {
   color: rgb(51, 185, 238);
   font-size: 1em;
+  margin: 10px 20px;
 }
 
 h6 {
@@ -31,8 +33,9 @@ h6 {
 }
 
 .info {
-  font-weight: 600;
-  color: rgb(94, 95, 95);
+  font-weight: 500;
+  line-height: 24px;
+  color: #6e6e6d;
 }
 
 .items {
@@ -84,12 +87,12 @@ h6 {
   width: 16%;
 }
 
-/* .hr-line{
+.hr-line {
   position: relative;
-  max-width: 500px;
-  margin: 100px auto;
+  max-width: 0px;
+  /* margin: 10px auto; */
   text-align: center;
-} */
+}
 
 .hr-line:after {
   /* content: " ";
@@ -105,7 +108,7 @@ h6 {
   height: 2px;
   width: 7%;
   position: absolute;
-  background: rgb(51, 185, 238);
-  left: 230px;
+  background: rgb(238, 51, 51);
+  left: 2px;
   top: 42px;
 }
